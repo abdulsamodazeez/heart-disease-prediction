@@ -3,13 +3,15 @@
 This project aims to predict the likelihood of heart disease occurrence in patients using machine learning techniques. The project follows the full scale of MLOps best practices, including the use of Python zenml to build the pipelines and mlflow for experiment tracking.
 
 ## Problem Statement
-Heart disease is a leading cause of death globally, taking an estimated 17.9 million lives each year, representing 32% of global deaths. With the power of data, we get to investigate and determine what lifestyle habits or conditions that mostly contribute to one’s likelihood to suffer from heart disease. This project seeks to leverage machine learning algorithms to predict the presence of heart disease in patients.
+Heart disease is a leading cause of death globally, taking an estimated 17.9 million lives each year, representing 32% of global deaths. With the power of data, we get to investigate and determine what lifestyle habits or conditions mostly contribute to one’s likelihood of suffering from heart disease. This project seeks to leverage machine learning algorithms to predict the presence of heart disease in patients.
 
 ## Aim and Objective
-The main aim of this project is to predict heart disease occurrence with the highest accuracy. To achieve this, we will test several classification algorithms. This section includes all results obtained from the study and introduces the best performer according to accuracy metric.
+The main aim of this project is to predict heart disease occurrence with the highest accuracy. To achieve this, we will test several classification algorithms. This section includes all results obtained from the study and introduces the best performer according to the accuracy metric.
 
 ## Dataset Used
-The dataset used in this project is the Heart Disease Dataset, which is available on Kaggle [here](https://www.kaggle.com/datasets/amirmahdiabbootalebi/heart-disease). The dataset contains 303 rows and 14 columns, with each row representing a patient and each column representing an attribute. The attributes include age, sex, chest pain type, resting blood pressure, serum cholesterol, fasting blood sugar, resting electrocardiographic results, maximum heart rate achieved, exercise-induced angina, ST depression induced by exercise relative to rest, slope of the peak exercise ST segment, number of major vessels colored by fluoroscopy, thalassemia, and target. The target column indicates whether the patient has heart disease or not.
+The dataset used in this project is the Heart Disease Dataset, which is available on Kaggle [here](https://www.kaggle.com/datasets/amirmahdiabbootalebi/heart-disease). The dataset contains 303 rows and 14 columns, with each row representing a patient and each column representing an attribute. The attributes include age, sex, chest pain type, resting blood pressure, serum cholesterol, fasting blood sugar, resting electrocardiographic results, maximum heart rate achieved, exercise-induced angina, ST depression induced by exercise relative to rest, the slope of the peak exercise ST segment, number of major vessels coloured by fluoroscopy, thalassemia, and target. The target column indicates whether the patient has heart disease or not.
+
+Also the system is set to fetch data from a database in real-time.
 
 This repository aims to demonstrate how [ZenML](https://github.com/zenml-io/zenml) can help you build and deploy machine learning pipelines in a variety of ways. It offers a framework and template to base your work on, integrates with tools like [MLflow](https://mlflow.org/) for deployment, tracking, and more, and allows you to build and deploy your machine learning pipelines with ease.
 
@@ -104,7 +106,7 @@ python run_deployment.py
 
 ## Resources & References
 
-A blog on: [Predicting how a customer will feel about a product before they even ordered it](https://blog.zenml.io/customer_satisfaction/).
+A blog on [Predicting how a customer will feel about a product before they even ordered it](https://blog.zenml.io/customer_satisfaction/).
 
 You can watch a video by 
 Ayush Singh [video](https://youtu.be/L3_pFTlF9EQ).

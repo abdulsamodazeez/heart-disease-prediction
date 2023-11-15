@@ -1,4 +1,4 @@
-# Heart Disease Prediction System
+# Heart Disease Prediction System following MLOps Best Practices
 ## Introduction
 This project aims to predict the likelihood of heart disease occurrence in patients using machine learning techniques. The project follows the full scale of MLOps best practices, including the use of Python zenml to build the pipelines and mlflow for experiment tracking.
 

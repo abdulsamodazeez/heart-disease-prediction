@@ -17,3 +17,24 @@ def get_data_for_test():
     except Exception as e:
         logging.error(e)
         raise e
+
+
+ """
+import pyodbc
+
+def fetch_data_from_database_and_convert_to_csv():
+    # Connect to the database
+    conn = pyodbc.connect('Driver={SQL Server};'
+                          'Server=server_name;'
+                          'Database=database_name;'
+                          'Trusted_Connection=yes;')
+
+    # Fetch data from the database
+    sql_query = pd.read_sql_query('SELECT * FROM table_name', conn)
+
+    # Convert the data to a DataFrame
+    df = pd.DataFrame(sql_query)
+
+    # Write the data to a CSV file
+    df.to_csv('output.csv', index=False)
+"""
